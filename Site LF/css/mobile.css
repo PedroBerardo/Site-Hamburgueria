@@ -1,0 +1,41 @@
+
+@media only screen and (max-width: 787px){
+    .header img{
+        margin-left: 110px;
+    }
+    .header{ 
+        position: relative;
+        height: 330px;
+    }
+    .topo{
+        text-align: center;
+    }
+    
+    .topo ul li a{
+        display: block;
+        float: left;
+        padding: 5px;
+        border: 1px solid yellow;
+        width: 220px;
+        padding: 10px;
+    }
+
+/*banner*/
+
+    .banner h1{
+        font-size: 55px;
+        margin-top: 80px;
+    }
+
+    .banner a{
+        font-size:17px;
+    }
+}
+
+/*cardapios */
+
+
+
+
+
+

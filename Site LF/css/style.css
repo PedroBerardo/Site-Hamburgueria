@@ -1,0 +1,336 @@
+img{
+    max-width: 100%;
+}
+
+.one{
+    width: 100%;
+    height: 4px;
+    background: #f2e41f;
+
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(#000000,#000000,#000000);;
+    padding: 25px;
+}
+
+.topo {
+    text-align: right;
+}
+
+.topo ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 30%;
+    display: inline-block;
+}
+
+.topo ul li a{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.topo ul li a:hover{
+    color: yellow
+}
+
+/* Banner */
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background:url(../img/banner.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.banner h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 110px;
+    text-shadow: black 2px, 2px, 2px, 10px;
+    margin-bottom: 50px;
+}
+
+.banner a{
+    font-family: 'oswald';
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 25px 20px;
+    width: 50px;
+    color: white;
+    background-color: #f2e41f;
+    border-radius: 10px;
+    box-shadow: black 2px, 2px, 2px, 10px
+}
+
+    .banner a:hover{
+        background: green;
+        color: black;
+        transition: 0 all 0.3s;
+        box-shadow: black 2, 2, 2, 10px;
+    }
+
+    /* cardapio */
+
+
+    .Hamburguers{
+        background: linear-gradient(#ffffff,#f3f3f3);
+    }
+
+    .Hamburguers h2{
+        margin-top: 75px;
+        font-family: 'oswald';
+        font-size: 45px;
+        text-align: center ;
+        color: #ffee00;
+        text-transform: uppercase;
+    }
+
+    .Hamburguers p{
+        font-family: 'lato';
+        font-size: 24px;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+
+    }
+
+    .combo{
+        margin-top: 75px;
+    }
+
+    .combo li {
+        font-family: 'lato';
+        text-transform: uppercase;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        line-height: 50px;
+        margin-bottom: 10px;
+
+    }
+
+    .combo img{
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+    }
+
+    .combo img:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .combo h3{
+        background: black;
+        color: #f2e41b;
+        font-weight: bold;
+    }
+
+    .combo p{
+        font-family: 'Oswald';
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        color: #000000;
+        text-transform: initial;
+        text-align: center;
+
+    }
+
+.combo h4{
+    background-color: rgb(2, 160, 2);
+    padding: 6px;
+    color:white;
+    font-family: 'oswald';
+    line-height: 20px;
+}
+
+.combo h4 a:hover {
+    background-color: #f2e41b;
+    color: white;
+    transition: 0.8 all;
+
+}
+.combo a{
+    color: #f3f3f3;
+}
+
+/* segunda parte */
+
+.sobre{
+    background: linear-gradient(#ffffff,#f3f3f3);
+}
+
+.sobre h2{
+    margin-top: 75px;
+    font-family: 'oswald';
+    font-size: 45px;
+    text-align: center ;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.sobre p{
+    font-family: 'lato';
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.video1{
+    max-width: 70%;
+    border-radius: 3%;
+}
+
+.video {
+    margin-top: 75px;
+}
+
+.video li {
+    font-family: 'lato';
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+
+}
+
+.video h3{
+    background: black;
+    color: #f2e41b;
+    font-weight: bold;
+}
+
+.video p{
+    font-family: 'Oswald';
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-transform: initial;
+    text-align: center;
+
+}
+
+.video h4{
+background-color: rgb(2, 160, 2);
+padding: 6px;
+color:white;
+font-family: 'oswald';
+line-height: 20px;
+}
+
+.video h4 a:hover {
+background-color: #f2e41b;
+color: white;
+transition: 0.8 all;
+
+}
+.video a{
+color: #f3f3f3;
+max-width: 100%;
+}
+
+.video h2{
+    margin-top: 2px;
+    font-family: 'oswald';
+    font-size: 40px;
+    text-align: center ;
+    color: #ffee00;
+    text-transform: uppercase;
+}
+
+
+/* fim do sobre */
+
+/* avaliações */
+
+
+
+/* localização*/
+
+.localizacao h2{
+    margin-top: 75px;
+    font-family: 'Oswald';
+    font-size: 45px;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+
+.localizacao p{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #f2e41b;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.localizacao2{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.localizacao{
+    text-align: center;
+}
+
+.zap{
+    width: 10%;
+}
+
+/* rodapé */
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background: #f2e41b;
+}
+
+.footer h3{
+    font-family: 'lato';
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* scroolbar*/
+
+::-webkit-scrollbar
+::-webkit-scrollbar-thumb
+
+::-webkit-scrollbar-track {
+    background: red;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f2e41b;
+}
+
+/* pagina de cardapios */
